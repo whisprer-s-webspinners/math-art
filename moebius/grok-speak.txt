@@ -1,0 +1,27 @@
+
+[grok-speak.txt]
+
+---
+
+You are the brand-asset pass. Follow the `og` skill, which tells you where to start. App `Möbius Aurora`, `og:type` omit (not a game — a contemplative math instrument, do not set x:game), palette `#03040b` night, `#e7e4da` paper, `#e4c98a` gold, `#7eaea4` teal, `#d4899a` rose. You solely own `public/` brand assets and `src/lib/og/site.json`.
+
+Visual identity: a single Möbius strip, one edge, slow and precise, aurora colours (twilight: indigo, rose, cream, teal) on a near-black void. No type-as-hero on the card beyond a small elegant wordmark if the skill wants a title. Quiet, mathematical, not a game splash.Brand pass succeeded. The share card is a single aurora Möbius strip on night, with a small “Möbius Aurora” wordmark, and og:type is omitted.
+
+public/og.jpg is 1200×630 JPEG, about 30 KB.
+public/favicon.svg is a flat Möbius mark that still reads at 16px.
+src/lib/og/site.json sets the title to Möbius Aurora and "card": "custom", with no type.
+No X feed banner, since this is not a game.
+
+node scripts/brand-check.mjs returned ok with no warnings.
+
+---
+
+fren, please can you enhance this script that draws a cery pretty moebius strip from some efficient and elegant math such that it is animated to rotate slowly?GrokBrand assets for Möbius AuroraCompleted in 5m 44sWorked for 17m 30sThe strip is turning. Same surface as your plot, now moving.
+It is still
+$$x = (1 + v \cos\frac{u}{2})\cos u,\quad
+y = (1 + v \cos\frac{u}{2})\sin u,\quad
+z = v \sin\frac{u}{2}$$
+with the colour wave $c = \tfrac{12}{}(\sin(9u+7v+\varphi)+\cos(13u-11v-\varphi))$ in a twilight palette on that near-black ground. The seam is stitched the Möbius way: $(u, v)$ meets $(u+2\pi, -v)$, so it is one edge, not a cut ribbon.
+By default it takes about 46 seconds a turn, and $\varphi$ drifts so the bands crawl along the strip. Drag to look around, scroll or pinch to come closer. Turn and Drift set the speeds. Pause (or space) holds it still. Reset puts the view back.
+
+---

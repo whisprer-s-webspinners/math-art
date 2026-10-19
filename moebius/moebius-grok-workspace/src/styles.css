@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #03040b;
+  --color-fg: #e7e4da;
+  --color-muted: #9b97a6;
+  --color-line: #2c2a38;
+  --color-gold: #e4c98a;
+  --font-serif: "Fraunces", Palatino, "Palatino Linotype", "Times New Roman", serif;
+  --font-sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "Cascadia Code", monospace;
+  --radius-panel: 1rem;
+}
+
+@layer base {
+  html {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100%;
+    overflow: hidden;
+    background: var(--color-bg);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  input[type="range"] {
+    appearance: none;
+    height: 2.75rem;
+    width: 100%;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  input[type="range"]:focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 2px;
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 1px;
+    background: var(--color-line);
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    margin-top: -0.47rem;
+    border-radius: 999px;
+    background: var(--color-gold);
+    border: 2px solid var(--color-bg);
+  }
+
+  input[type="range"]::-moz-range-track {
+    height: 1px;
+    background: var(--color-line);
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 999px;
+    background: var(--color-gold);
+    border: 2px solid var(--color-bg);
+  }
+}

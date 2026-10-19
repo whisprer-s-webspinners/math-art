@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Möbius Aurora",
+      "hasCanvas": false,
+      "bodyTextLen": 331,
+      "bodyTextHash": "bd9acc553685da837909e3bcd36dd0a209aa715f857de1422167803a0badb9e1",
+      "bodyTextPrefix": "A SINGLE SURFACE Möbius One side, one edge. It turns slowly whil",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Möbius Aurora",
+      "hasCanvas": false,
+      "bodyTextLen": 331,
+      "bodyTextHash": "bd9acc553685da837909e3bcd36dd0a209aa715f857de1422167803a0badb9e1",
+      "bodyTextPrefix": "A SINGLE SURFACE Möbius One side, one edge. It turns slowly whil",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
